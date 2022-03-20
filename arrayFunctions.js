@@ -104,9 +104,9 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 function youGottaCalmDown(shout) {
   // Your code here
   var location = shout.indexOf("!");
-  return shout.slice(0,location+1);
+  return shout.slice(0,location+1)  ;
 }
-console.log(youGottaCalmDown("HI!!!!!!!!!!"));
+
 module.exports = {
   isArrayLengthOdd,
   isArrayLengthEven,
